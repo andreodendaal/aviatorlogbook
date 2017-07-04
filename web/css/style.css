@@ -1,0 +1,61 @@
+body{
+    background-color: #404040;
+    /*border: solid 2px red;*/
+    margin: 0;
+    font-family: "Helvetica", sans-serif;
+    color: seashell;
+    font-size: 22px;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    border: solid 1px black;
+    height: 50px;
+    background-color: black;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+a{
+    color: seashell;
+    padding: 0px 5px
+}
+
+nav{
+    text-align: right;
+    flex-grow: 1;
+    font-family: 'Special Elite', cursive;
+
+
+}
+
+nav span {
+    display: inline-flex;
+    text-decoration: underline;
+    padding: 5px;
+    margin-right: 20px;
+
+}
+
+#banner{
+    display: flex;
+    padding-top: 100px;
+    width: 100%;
+    background-image: url("./images/HOMOdendaal_Mustang_Web.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30rem;
+    /*border: 3px red solid;*/
+}
+
+#banner h1{
+    font-family: 'Special Elite', cursive;
+    font-size: 2em;
+    text-align: left;
+    padding-left: 10%;
+    color: black;
+    margin: 0px;
+}
